@@ -1,0 +1,300 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+:root {
+    --roboto: 'Roboto', sans-serif;
+    --primary-color: #EA625C;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    font-family: var(--roboto);
+}
+
+.container {
+    max-width: 1140px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.all-btn {
+    background-color: var(--primary-color);
+    width: 260px;
+    padding: 12px;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 150%;
+}
+
+/* header */
+header {}
+
+.header__cont {
+    border-bottom: solid;
+    border-radius: 3px;
+    border-color: #666;
+}
+
+.header__nav {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+
+.header__list {
+    display: flex;
+    gap: 40px;
+}
+
+.header__nom {
+    display: flex;
+    gap: 30px;
+}
+
+.header__item {
+    color: #333;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.header__item2 {
+    color: #666;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 150%;
+    position: relative;
+}
+
+.header__item2::after {
+    content: "";
+    display: block;
+    background: #333;
+    width: 153.001px;
+    height: 1px;
+    position: absolute;
+}
+
+.header__section {
+    display: flex;
+    align-items: center;
+    gap: 270px;
+}
+
+.header__txt {}
+
+
+.txt_h1 {
+    color: #000;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 120%;
+}
+
+
+
+.txt-item {
+    max-width: 450px;
+    width: 100%;
+    color: #777;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 40px;
+    position: relative;
+}
+
+.txt-item::before {
+    content: "";
+    display: block;
+    width: 3px;
+    height: 120px;
+    background-color: #888;
+    position: absolute;
+    left: 0;
+}
+
+/* heaeder */
+
+/* main */
+main {
+    padding-bottom: 50px;
+}
+.box__cont {
+    padding-top: 70px;
+    display: flex;
+    gap: 80px;
+    justify-content: space-between;
+}
+
+.box__h1 {
+    color: #222;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 150%;
+    text-transform: uppercase;
+}
+
+.box__p {
+    padding-top: 30px;
+    max-width: 280px;
+    width: 100%;
+    color: #333;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 160%;
+}
+
+.box__p::after {
+    content: "";
+    display: block;
+    width: 8px;
+    height: 8px;
+    background-color: #DDD;
+}
+
+.box__p {
+    position: relative;
+}
+
+.box__p-3::after {
+    content: "";
+    display: block;
+    width: 40px;
+    height: 3px;
+    background-color: #EA625C;
+    position: absolute;
+    top: 160px;
+}
+
+.box__p-3::after::after {
+    content: "Learn more";
+    display: block;
+    background-color: var(--primary-color);
+    color: #EA625C;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 160%;
+    text-transform: uppercase;
+
+}
+
+.box__p-3::after::after::after {
+    content: "";
+    display: block;
+    width: 40px;
+    height: 3px;
+    background-color: #EA625C;
+    position: absolute;
+    top: 160px;
+}
+
+.section2 {
+    padding-top: 120px;
+}
+
+.main__cont {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.main__txt-h1 {
+    max-width: 400px;
+    width: 100%;
+    color: #000;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 120%;
+}
+
+.main__txt-item {
+    max-width: 450px;
+    width: 100%;
+    color: #777;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%;
+    position: relative;
+    padding: 30px 0 30px 40px;
+}
+
+.main__txt-item::before {
+    content: "";
+    display: block;
+    width: 3px;
+    height: 96px;
+    background-color: #888;
+    position: absolute;
+    left: 0;
+}
+
+/* main */
+/* footer */
+footer {
+    background: url(../img/runners\ 1.jpg) no-repeat center center / cover;
+    width: 100%;
+    height: 130vh;
+}
+
+
+
+
+.footer__txt {
+    padding: 250px 0 0 500px;
+}
+
+.footer__txt-h1 {
+    max-width: 490px;
+    width: 100%;
+    color: #FFF;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 120%;
+}
+
+.footer__txt-p::before {
+    content: "";
+    display: block;
+    width: 3px;
+    height: 120px;
+    background-color: #FFF;
+    position: absolute;
+    left: 0;
+}
+
+.footer__txt-p {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%;
+    position: relative;
+    max-width: 450px;
+    width: 100%;
+    padding: 30px 0 30px 40px;
+}
+
+.footer__txt-btn {
+    display: flex;
+    width: 260px;
+    padding: 12px;
+    justify-content: center;
+    align-items: center;
+}
+
